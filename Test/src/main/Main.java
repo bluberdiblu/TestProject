@@ -1,7 +1,11 @@
 package main;
 
 public class Main {
+	Sub sub = new Sub();
 public static void main(String[] args) {
-	System.out.println("Hallo!");
+	new Main().start();
+}
+public void start() {
+	sub.say();
 }
 }
